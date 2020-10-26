@@ -70,4 +70,13 @@ public class LmabdaTest {
        },7,2,6,5,58,2,5);
     }
 
+    /**
+     * stream流
+     */
+    @Test
+    public void test06(){
+        list.stream().filter(i->i>10).forEach(System.out::println);
+
+    }
+
 }
